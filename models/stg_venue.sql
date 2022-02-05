@@ -2,8 +2,8 @@ with venue as (
 
 select 
   VENUEID as venueid,
-  VENUECITY as vcity,
-  VENUESTATE as vstate,
+  VENUECITY as venuecity,
+  VENUESTATE as venuestate,
   from `mod4-507.tickit.venue`
 
 )
