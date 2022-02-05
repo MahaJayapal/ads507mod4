@@ -1,5 +1,5 @@
-select 
-    count(venueid),
-    venuestate
-    from `mod4-507.tickit.venue`
-    group by venuestate;
+with rdate as (
+    select * from {{ ref('stg_date')}}
+)
+
+select * from rdate
