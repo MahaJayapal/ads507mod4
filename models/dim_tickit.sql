@@ -1,5 +1,8 @@
-with rdate as (
+with date as (
     select * from {{ ref('stg_date')}}
+),
+
+sales as (
+    select * from {{ ref('stg_sales')}}
 )
 
-select * from rdate

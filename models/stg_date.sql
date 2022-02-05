@@ -1,4 +1,4 @@
-with stgDate as (
+with date as (
 
 select 
   dateid,
@@ -6,4 +6,4 @@ select
   from `mod4-507.tickit.date`
 
 )
-select * from stgDate
+select * from date

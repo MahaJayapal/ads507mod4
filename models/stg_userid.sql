@@ -6,4 +6,4 @@ with user as (
         from `mod4-507.tickit.users`
 )
 
-select* from user;
+select* from user
