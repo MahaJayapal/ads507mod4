@@ -1,6 +1,6 @@
 {% docs event_venue %}
 	
-One of the following values: 
+Table description: 
 
 | column         | description                                      |
 |----------------|--------------------------------------------------|

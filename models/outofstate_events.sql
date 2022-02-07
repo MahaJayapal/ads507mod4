@@ -20,7 +20,7 @@ users as (
 
 /* Find number of users who bought ticketrs to out-of-state events. */
 
-SELECT COUNT(DISTINCT u.userid)
+SELECT COUNT(DISTINCT u.userid) as count
 FROM sales s
 JOIN users u
   ON u.userid = s.buyerid

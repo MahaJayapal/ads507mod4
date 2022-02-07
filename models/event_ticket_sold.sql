@@ -29,5 +29,5 @@ SELECT
 FROM num_tickets_available_per_event ntape
 JOIN sales s
   ON s.eventid = ntape.eventid
-GROUP BY s.eventid
+GROUP BY s.eventid, ntape.total_listed_tickets
 ORDER BY pct_tickets_sold DESC
